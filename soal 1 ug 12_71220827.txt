@@ -4,5 +4,5 @@ p = int(input('masukan angka anda :'))
 space = p-1
 for i in range (p):
     print(' '*space,end='')
-    print('*' if i == 0 else '**' if p  != 0 and p != p-1 else'*'*(p *3-1))
+    print('*' if i == 0 else '**' if p  != 0 and p != p-1 else'*'*(p *2-1))
     space-=1
